@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>UNOPAR - Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="container-login">
+			<div class="wrap-login">
+				<form class="login-form">
+					<span class="login-form-title">
+						Fazer login
+					</span>
+
+					<div class="wrap-input margin-top-35 margin-bottom-35">
+						<input id="usuario" class="input-form" type="text" name="user" autocomplete="off">
+						<span class="focus-input-form" data-placeholder="Usuário"></span>
+					</div>
+				
+					<div class="wrap-input margin-bottom-35">
+						<input id="senha" class="input-form2" type="password" name="password">
+						<span class="focus-input-form" data-placeholder="Senha"></span>
+					</div>
+				</form>
+					<div class="container-login-form-btn">
+						<button onclick="login()" class="login-form-btn" id="btLogin">
+							Entrar
+						</button>
+					</div>
+
+					<ul class="login-utils">
+						<li class="margin-bottom-8 margin-top-8">
+							<span class="text1">
+								Esqueceu sua
+							</span>
+
+							<a href="#" class="text2">
+								senha?
+							</a>
+						</li>
+
+						<li>
+							<span class="text1">
+								Primeiro acesso?
+							</span>
+
+							<a href="#" class="text2">
+								Cadastrar-se
+							</a>
+						</li>
+					</ul>
+				
+			</div>
+			<img src="images/login.png" width="500" height="350" class="margin-left-50" />
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
